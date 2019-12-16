@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,900');
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	background: #FFFFFF;
+	color: #a5a5a5;
+}
+
+div{
+	display: block;
+	position: relative;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ul{
+	list-style: none;
+	margin-bottom: 0px;
+}
+p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 2;
+	font-weight: 400;
+	color: #929191;
+}
+p a{
+	display: inline;
+	position: relative;
+	color: inherit;
+	border-bottom: solid 1px #ffa07f;
+}
+.header{
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #FFFFFF;
+	z-index: 100;
+}
+.header.scrolled{
+	position: fixed;
+	top: -91px;
+	left: 0;
+}
+.header_top{
+	width: 100%;
+	z-index: 2;
+}
+.header_top_content
+{
+	height: 91px;
+}
+.header_top_nav ul li
+{
+	position: relative;
+}
+.header_top_phone
+{
+	margin-left: 14px;
+}
+.header_top_phone i
+{
+	font-size: 22px;
+	color: #54a0c2;
+	vertical-align: middle;
+	transform: translateY(-1px);
+}
+.header_top_phone span
+{
+	font-size: 16px;
+	font-weight: 600;
+	color: #404040;
+	margin-left: 3px;
+	vertical-align: middle;
+}
+.hamburger
+{
+	display: none;
+	cursor: pointer;
+}
+.hamburger i
+{
+	font-size: 18px;
+	color: #4c4c4c;
+}
+.hamburger i:hover
+{
+	color: #54a0c2;
+}
+.header_nav
+{
+	z-index: 2;
+}
+.header_nav_inner
+{
+	width: 100%;
+}
+.header_nav_container
+{
+	z-index: 1;
+	background: #54a0c2;
+}
+.header_nav_content
+{
+	height: 78px;
+}
+.main_nav
+{
+	height: 100%;
+}
+.main_nav ul
+{
+	height: 100%;
+}
+.main_nav ul li
+{
+	position: relative;
+}
+.main_nav ul li:not(:last-child)
+{
+	margin-right: 70px;
+}
+.main_nav ul li a
+{
+	display: block;
+	position: relative;
+	height: 100%;
+	font-size: 13px;
+	font-weight: 600;
+	color: #FFFFFF;
+	z-index: 1;
+	text-transform: uppercase;
+}
+.main_nav ul li a:hover,
+.main_nav ul li.active a
+{
+	color: rgba(255,255,255,0.75);
+}
+
+.btnIngresar{
+    background-color:#54a0c2;
+    color:white;
+}
