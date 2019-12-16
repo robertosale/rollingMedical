@@ -1,6 +1,8 @@
 // when app starts
 window.onload = startApp;
 
+
+
 let usuarios = [
 
   //clientes
