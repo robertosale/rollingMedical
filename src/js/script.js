@@ -42,13 +42,13 @@ function login() {
       switch (element.nivel) {
 
         case "paciente":
-          window.location.href ="./cliente.html";
+          window.location.href ="../src/cliente.html";
           break;
         case "administrador":
-          window.location.href = "./administrador.html";
+          window.location.href = "../src/administrador.html";
           break;
         case "medico":
-          window.location.href = "./medico.html";
+          window.location.href = "../src/medico.html";
           break;
       }
     }
