@@ -31,7 +31,7 @@ function login() {
   let usuarioLogin = document.getElementById('txtUsuario').value;
   let PasswordLogin = document.getElementById('txtPassword').value;
   let usuariosTemp = JSON.parse(localStorage.getItem("usuarios"));
-  console.log(usuariosTemp)
+  console.log(usuariosTemp);
 
   usuariosTemp.forEach(element => {
 
