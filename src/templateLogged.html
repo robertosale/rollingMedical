@@ -13,6 +13,7 @@
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
 <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/responsive.css">
+<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
@@ -47,9 +48,15 @@
 	<!-- Home -->
 
 	<div class="home">
-		<div class="background_image" style="background-image:url(images/index_hero.jpg)"></div>
+		<!-- <div class="background_image" style="background-image:url(images/index_hero.jpg)"></div> -->
 
 		<!-- Header -->
+
+		
+
+
+    </div>
+
 
 		<!-- Header -->
 
@@ -106,6 +113,66 @@
 		
 	</div>
 
+	<div class="home-container">
+        <div class="row">
+            <div class="col-md-6 agregar-turnos">
+                    <h2 class="text-center my-4">Turnos Medicos</h2>
+                    <form>
+                            <div class="form-group row">
+                                <label class="col-sm-4 col-lg-4 col-form-label">Paciente</label>
+                                <div class="col-sm-8 col-lg-8">
+                                    <input type="text" id="paciente" class="form-control" placeholder="Nombre Paciente" required>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-sm-4 col-lg-4 col-form-label">Medico</label>
+                                <div class="col-sm-8 col-lg-8">
+                                    <input type="text" id="medico"  class="form-control"  placeholder="Nombre Medico" required>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                    <label class="col-sm-4 col-lg-4 col-form-label">Teléfono:</label>
+                                    <div class="col-sm-8 col-lg-8">
+                                        <input type="tel" id="telefono" class="form-control"  placeholder="Número de Teléfono" required>
+                                    </div>
+                                </div>
+                            <div class="form-group row">
+                                <label class="col-sm-4 col-lg-4 col-form-label">Fecha:</label>
+                                <div class="col-sm-8 col-lg-8">
+                                    <input type="date" id="fecha" class="form-control" required>
+                                </div>
+                            </div>
+
+                             <div class="form-group row">
+                                <label class="col-sm-4 col-lg-4 col-form-label">Hora:</label>
+                                <div class="col-sm-8 col-lg-8">
+                                    <input type="time" id="hora" class="form-control" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label class="col-sm-4 col-lg-4 col-form-label">Sintomas</label>
+                                <div class="col-sm-8 col-lg-8">
+                                    <textarea id="sintomas" class="form-control" required></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group row justify-content-end">
+                                <div class="col-sm-3">
+                                    <button type="submit" class="btn btn-success w-100">Agregar</button>
+                                </div>
+                            </div>
+                        </form>
+            </div>
+
+            <div class="col-md-6">
+                    <h2 id="administra" class="text-center my-4"></h2>
+                    <ul id="turnos" class="list-group">
+                        <li>Hola</li>
+                    </ul>
+            </div>
+        </div>
+
+	
 	
 
 	
